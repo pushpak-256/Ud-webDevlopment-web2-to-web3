@@ -12,5 +12,27 @@
          <li>email : pushpak7070@gmail.com</li>
          <li>phone : 7977364384</li>
      </ul>
+     <hr size="4" noshade>
+
+     <!-- 
+      1. action="mailto:xyx@fds.com"
+         on submit opens default mail app with , to as mailto (receiver);
+      2. by adding name="something" , mail content is formated properly
+      3. by adding enctype="text/plain", your+%Name this kind of text is avoided
+     -->
+    <form action="mailto:pushpak7070@gmail.com" method="post" enctype="text/plain" >
+        <label for="">Your Name :</label>
+        <input type="text" name="userName" value="">
+        <br>
+        <label for="">Your Email :</label>
+        <input type="email" name="userEmail" value="">
+        <br>
+        <label for="">Your Message :</label>
+        <br>
+        <textarea name="message" value=""></textarea>
+        <br>
+        <input type="submit" value="Enter">
+    </form>
+
 </body>
 </html>
