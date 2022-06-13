@@ -8,18 +8,7 @@
     </p>
 
 
-   
-   <table border=".5px" cellspacing="26">
-        <thead>
-            <th>name</th>
-            <th>link</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>HtmlOnly CV</td>
-                <td><a href="https://pushpak-256.github.io/Udemy-htmlOnlyCV/" target="_blank">CV Version 1</a></td>
-            </tr>
-        </tbody>
-    </table>
-
-
+|VersionName    |                        Links                                                                        |
+|---            |         ---                                                                                         |
+| HTMLOnly      |  <a href="https://pushpak-256.github.io/htmlOnlyCv/" target="_blank">CV Version 1</a></td>    | 
+| withCss       |  <a href="https://pushpak-256.github.io/cv-withcss/" target="_blank">CV Version 2</a></td>          | 
