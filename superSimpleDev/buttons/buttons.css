@@ -1,0 +1,70 @@
+.subscibe-button{
+    height: 36px;
+    width: 105px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: arial;
+    cursor: pointer;
+    margin-right: 15px;
+
+    transition: opacity 0.2s;
+    /* transition timing for an attribute should be placed in main class, not pseudo class */
+}
+
+.subscibe-button:hover
+{
+    opacity: 72%;
+}
+
+.subscibe-button:active{
+    opacity: 52%;
+}
+
+.join-button{
+  height: 36px;
+  width: 63px;
+  color: #065fd4;
+  background-color: white;
+  border-style: none;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #065fd4;
+
+  transition: opacity 0.15s;
+  transition: background-color 0.21s,color 0.21s,opacity 0.22s;
+  font-family: arial;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.join-button:hover{
+  color: white;
+  background-color: #065fd4;    
+ 
+}
+
+.join-button:active{
+    opacity: 74%;
+}
+
+.tweet-button{
+    height: 36px;
+    width: 68px;
+    border-radius: 18px;
+    border-style: none;
+    background-color: #1d9bf0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: arial;
+    cursor: pointer;
+
+    transition: box-shadow 0.15s;
+    
+}
+
+.tweet-button:hover{
+    text-shadow: 3px 3px 4px  rgb(184, 180, 180);
+    box-shadow: 5px 5px 10px rgb(184, 180, 180);
+}
