@@ -7,8 +7,7 @@
                 heigth="300px" width="600px"></a>
     </p>
 
-
-|VersionName    |                        Links                                                                        |
+|VersionName    |                        Links                                                                          |
 |---            |         ---                                                                                         |
-| HTMLOnly      |  <a href="https://pushpak-256.github.io/htmlOnlyCv/" target="_blank">CV Version 1</a></td>    | 
-| withCss       |  <a href="https://pushpak-256.github.io/cv-withcss/" target="_blank">CV Version 2</a></td>          | 
+| HTMLOnly      |  <a href="https://pushpak-256.github.io/htmlOnlyCv/" target="_blank">CV Version 1</a>    | 
+| withCss       |  <a href="https://pushpak-256.github.io/cv-withcss/" target="_blank">CV Version 2</a>    | 
