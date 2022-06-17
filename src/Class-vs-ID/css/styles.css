@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+img{
+    background-color: red;
+}
+
+img:active{
+    background-color: gold;
+}
+
+.bacon-img{
+    background-color: green;
+}
+
+.broccoli-img{
+    background-attachment: fixed;
+}
+
+#circular-img{
+    border-radius: 100%;
+}
+
+#fs{
+    background-color: aquamarine;
+}
