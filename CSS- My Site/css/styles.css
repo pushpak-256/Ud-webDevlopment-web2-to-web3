@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.top-container {
+  background-color: #e8f9fd;
+ /* padding: 20px;
+  margin: 0;
+  height: 200px;*/
+  width:200px; height: 200px;
+}
+
+.middle-container {
+  position: relative ;
+  left : 200px;
+  bottom: 200px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.bottom-container {
+  position: relative ;
+  left : 400px;
+  bottom: 400px;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+#pro{
+  text-decoration: underline;
+  display: inline-block;
+}
+
+/*
+p{
+  display:inline-flex; 
+  width: 30%;
+  border: solid black 3px;
+}
+*/
