@@ -1,0 +1,82 @@
+div {
+  text-align: center;
+  box-shadow: 4px 4px 10px rgb(0, 118, 0);
+  padding: 5px 5px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+a {
+  font-size: 1.2rem;
+  padding: 0 4px 0 4px;
+}
+h4 {
+  text-align: center;
+  color: rgb(0, 95, 0);
+  margin: 8px 0;
+  text-shadow: 1px 1px 1px;
+}
+
+.back-button {
+  font-size: 1rem;
+  padding: 8px 4px;
+  margin-right: 8px;
+}
+.next-button {
+  font-size: 1rem;
+  padding: 8px 4px;
+  margin-left: 8px;
+}
+/* Stretch */
+.stretch-button {
+  font-size: 1.25rem;
+  border: none;
+  color: white;
+  background-color: rgb(0, 118, 0);
+  padding: 8px 15px;
+  transition: all 0.4s;
+}
+.stretch-button:hover {
+  border: none;
+  background-color: rgb(0, 116, 0);
+  padding: 18px 36px;
+}
+/* Stretch */
+
+/* 3D Click */
+.shadow-button {
+  font-size: 1.25rem;
+  border: none;
+  color: white;
+  background-color: rgb(0, 118, 0);
+  padding: 8px 15px;
+  box-shadow: 4px 4px 8px rgb(155, 153, 153);
+}
+.shadow-button:hover {
+  box-shadow: 4px 4px 8px rgb(155, 153, 153);
+}
+.shadow-button:active {
+  margin-left: 4px;
+  margin-top: 4px;
+  box-shadow: none;
+}
+
+.inline-buttons {
+  font-size: 1.25rem;
+  border: none;
+  color: white;
+  background-color: rgb(0, 118, 0);
+  padding: 8px 15px;
+  margin: 0 8px;
+  transition: all 0.4s;
+}
+.inline-buttons:hover {
+  background-color: rgb(0, 116, 0);
+  padding: 8px 22px;
+  margin: 0 0;
+}
