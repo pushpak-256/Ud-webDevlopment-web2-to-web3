@@ -4,7 +4,13 @@ body {
   font-family: "Merriweather", sans-serif;
   font-size: 2em;
 }
-
+hr{
+  border: 6px;
+  border-top: dotted;
+  width: 8%;
+  border-width: thick;
+  color: #eaf6f6;
+}
 h1 {
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
@@ -13,31 +19,29 @@ h1 {
   16px == 100% == 1em
   rem ingnore inherited font
   */
-  color: #0AA1DD;
+  color: #66bfbf;
 }
 
 h2 {
   font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-  color: #0AA1DD;
+  font-weight: 700;
+  color: #66bfbf;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #79DAE8;
+  color: #11999e;
 }
 .top-container {
   position: relative;
   padding-top: 100px;
-  background-color: #e8f9fd;
+  background-color: #eaf6f6;
 }
 
 .middle-container {
-
 }
 
 .bottom-container {
-
 }
 
 #pro {
@@ -56,6 +60,36 @@ h3 {
   left: 300px;
 }
 
-a{
-  color: #79DAE8;
+a {
+  color: #11999e;
+}
+
+.skills {
+}
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.skill-img-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn{
+  text-decoration: none;
+  background-color:  #11999e;
+  color: white;
+  padding: 20px 35px;
+  border-radius: 12px;
+
+
 }
