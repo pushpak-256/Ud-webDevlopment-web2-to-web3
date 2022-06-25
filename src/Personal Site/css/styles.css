@@ -3,12 +3,10 @@ body {
 }
 
 hr {
-    border-width: 4px;
-    border-radius: 0%;
-    border-style: dotted none none none; 
-
-    height: 0px;
-    width: 6%;
+ border: dotted rgb(208, 208, 208) 6px;
+ border-bottom: none;
+ width: 8%;
+ background-color: rgb(210, 240, 240);
 }
 
 h1,h3{
