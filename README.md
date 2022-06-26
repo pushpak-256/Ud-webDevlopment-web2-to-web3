@@ -4,7 +4,7 @@
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | 🏗️ in progress  | <a href="https://pushpak-256.github.io/ud-complete-webDevlopment/" target="_blank">Complete Repo View</a>                         |
 | 🏰PersonalSite2 | <a href="https://pushpak-256.github.io/ud-complete-webDevlopment/CSS-%20My%20Site/index.html" target="_blank">CV Version 2</a>    |
-| 🏰PersonalSite1 | <a href="https://pushpak-256.github.io/ud-complete-webDevlopment/src/Personal%20Site/index.html" target="_blank">CV Version 1</a> |
+| 🏰PersonalSite1 | <a href="https://pushpak-256.github.io/ud-complete-webDevlopment/HTML/Personal%20Site/index.html" target="_blank">CV Version 1</a> |
 
 <br>
 
