@@ -38,3 +38,18 @@ function getRandom() {
     console.log(random);
     return random + 1;
 }
+
+/** Bmi Calculator with comment */
+function bmiCalculator_withComment(weight, height) {
+    var bmi = weight / (Math.pow(height, 2));
+    bmi = Math.floor(bmi);
+    return getComment(bmi);
+}
+
+function getComment(bmi) {
+    if (bmi < 18.5) return "Your BMI is " + bmi + ", so you are underweight."
+    else if (bmi >= 18.5 && bmi <= 24.9) return "Your BMI is " + bmi + ", so you are a normal weight.";
+    else if (bmi > 24.9) return "Your BMI is " + bmi + ", so you are overweight.";
+
+    return null;
+}
