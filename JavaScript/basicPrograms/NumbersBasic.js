@@ -23,3 +23,11 @@ function lifeInWeeks(age) {
     var z = yearsLeft * 12;// months
     console.log("You have " + x + " days, " + y + " weeks, and " + z + " months left.");
 }
+
+/** 
+ * Bmi calculator
+ */
+function bmiCalculator(weight, height) {
+    var bmi = weight / (Math.pow(height, 2));
+    return Math.floor(bmi);
+}
