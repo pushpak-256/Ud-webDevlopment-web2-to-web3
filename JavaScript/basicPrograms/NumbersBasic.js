@@ -31,3 +31,10 @@ function bmiCalculator(weight, height) {
     var bmi = weight / (Math.pow(height, 2));
     return Math.floor(bmi);
 }
+
+/** Random Number generator */
+function getRandom() {
+    var random = Math.floor(Math.random() * 100);
+    console.log(random);
+    return random + 1;
+}
