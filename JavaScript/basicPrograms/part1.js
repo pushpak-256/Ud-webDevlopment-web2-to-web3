@@ -18,3 +18,16 @@ function twittLimitPromt() {
     else alert("You have used " + twitt.length + " Character " + (limit - twitt.length));
 }
 
+
+/** Take valid twitt and show it after valid slice*/
+function trimValidTwitt() {
+    var twitt = prompt("Enter Twitt");
+    var limit = 122;
+
+    while (!twitt) {
+        alert("This field is required");
+        twitt = prompt("Enter Twitt");
+    }
+    alert("You have used " + twitt.length + " Character " + (limit - twitt.length));
+    alert("Your final twitt is " + twitt.slice(0, limit));
+}
