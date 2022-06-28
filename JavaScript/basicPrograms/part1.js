@@ -31,3 +31,13 @@ function trimValidTwitt() {
     alert("You have used " + twitt.length + " Character " + (limit - twitt.length));
     alert("Your final twitt is " + twitt.slice(0, limit));
 }
+
+
+/** Take a name in upper/lower case and display it in valid name format*/
+function validName()
+{
+    var name = prompt("Enter Name");
+    name = name.slice(0,1).toUpperCase()+name.slice(1,name.length).toLocaleLowerCase();
+    alert("Name after Formating "+name);
+}
+
